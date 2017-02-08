@@ -5,3 +5,5 @@ if [ ! -d "$HOME/.abuild" ] || [ ! -f "$HOME/.abuild/abuild.conf" ]; then
     echo "Generating abuild keys and config"
     abuild-keygen -a -i
 fi
+
+/bin/sh -c "$@"
