@@ -14,4 +14,4 @@ RUN chmod +x /usr/bin/entrypoint.sh && \
 WORKDIR /home/builder
 USER builder
 VOLUME ["/home/builder"]
-CMD "/bin/sh"
+CMD /bin/sh

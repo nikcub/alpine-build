@@ -6,4 +6,9 @@ if [ ! -d "$HOME/.abuild" ] || [ ! -f "$HOME/.abuild/abuild.conf" ]; then
     abuild-keygen -a -i
 fi
 
-/bin/sh -c "$@"
+if [ ! -z "$@" ]; then
+  exec /bin/sh -c "$@"
+fi
+
+exec /bin/sh
+
