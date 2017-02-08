@@ -1,9 +1,9 @@
 {
   "name": "@nikcub/alpine-build",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Docker container for building Alpine Linux packages",
   "scripts": {
-      "postversion": "git push -u origin --tags && containr build"
+    "postversion": "git push -u origin --tags && containr build"
   },
   "keywords": [],
   "author": "",
