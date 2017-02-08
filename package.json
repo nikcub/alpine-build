@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Docker container for building Alpine Linux packages",
   "scripts": {
-      "postversion": "git push -u origin --tags && containr release"
+      "postversion": "git push -u origin --tags && containr build"
   },
   "keywords": [],
   "author": "",
